@@ -7,4 +7,5 @@ arr = img[:,:,2]
 arra = np.asarray(arr)
 histogram, bins = np.histogram(arr.ravel(), bins=256, range=[0, 256])
 plt.plot(histogram)
+plt.show()
 
